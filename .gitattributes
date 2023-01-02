@@ -3,10 +3,8 @@
 # (scripts often don't have a suffix)
 * -text
 *.sh text eof=lf
-
 # txt files should be native and normalized
 *.txt text
-
 # source code can be native and normalized, but simpler if lf everywhere; will try that way
 *.h text eol=lf
 *.c text eol=lf
@@ -15,3 +13,38 @@
 *.out text eol=lf
 *.conf text eol=lf
 *.err text eol=lf
+_config.yml filter=lfs diff=lfs merge=lfs -text
+glslang filter=lfs diff=lfs merge=lfs -text
+StandAlone filter=lfs diff=lfs merge=lfs -text
+Android.bp filter=lfs diff=lfs merge=lfs -text
+build_info.py filter=lfs diff=lfs merge=lfs -text
+build_overrides filter=lfs diff=lfs merge=lfs -text
+known_good_khr.json filter=lfs diff=lfs merge=lfs -text
+MODULE_LICENSE_BSD filter=lfs diff=lfs merge=lfs -text
+OWNERS filter=lfs diff=lfs merge=lfs -text
+ChooseMSVCCRT.cmake filter=lfs diff=lfs merge=lfs -text
+External filter=lfs diff=lfs merge=lfs -text
+known_good.json filter=lfs diff=lfs merge=lfs -text
+METADATA filter=lfs diff=lfs merge=lfs -text
+update_glslang_sources.py filter=lfs diff=lfs merge=lfs -text
+WORKSPACE filter=lfs diff=lfs merge=lfs -text
+CMakeLists.txt filter=lfs diff=lfs merge=lfs -text
+DEPS filter=lfs diff=lfs merge=lfs -text
+gtests filter=lfs diff=lfs merge=lfs -text
+BUILD.bazel filter=lfs diff=lfs merge=lfs -text
+build_info.h.tmpl filter=lfs diff=lfs merge=lfs -text
+README-spirv-remap.txt filter=lfs diff=lfs merge=lfs -text
+ndk_test filter=lfs diff=lfs merge=lfs -text
+CODE_OF_CONDUCT.md filter=lfs diff=lfs merge=lfs -text
+license-checker.cfg filter=lfs diff=lfs merge=lfs -text
+LICENSE.txt filter=lfs diff=lfs merge=lfs -text
+SPIRV filter=lfs diff=lfs merge=lfs -text
+standalone.gclient filter=lfs diff=lfs merge=lfs -text
+BUILD.gn filter=lfs diff=lfs merge=lfs -text
+kokoro filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+LICENSE filter=lfs diff=lfs merge=lfs -text
+Test filter=lfs diff=lfs merge=lfs -text
+CHANGES.md filter=lfs diff=lfs merge=lfs -text
+hlsl filter=lfs diff=lfs merge=lfs -text
+OGLCompilersDLL filter=lfs diff=lfs merge=lfs -text

@@ -1,1 +1,3 @@
-include platform/external/deqp:/OWNERS
+version https://git-lfs.github.com/spec/v1
+oid sha256:afce0970176be0becb22ba67accee65a52d2d940ad9ec2037d828bcd6c95f814
+size 39

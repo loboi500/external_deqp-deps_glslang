@@ -1,18 +1,3 @@
-{
-  "commits" : [
-    {
-      "name" : "spirv-tools",
-      "site" : "github",
-      "subrepo" : "KhronosGroup/SPIRV-Tools",
-      "subdir" : "External/spirv-tools",
-      "commit" : "b812fd634ea5ff307c374fb2b6340169f7db8b16"
-    },
-    {
-      "name" : "spirv-tools/external/spirv-headers",
-      "site" : "github",
-      "subrepo" : "KhronosGroup/SPIRV-Headers",
-      "subdir" : "External/spirv-tools/external/spirv-headers",
-      "commit" : "faa570afbc91ac73d594d787486bcf8f2df1ace0"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:79bf55997c3d158e24501ca2babfb5631d444045fb80058af00ccecb3a0ebe51
+size 501
